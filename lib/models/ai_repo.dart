@@ -6,7 +6,7 @@ class ChatRepo {
   static Future<String> aiTextGenerationRepo(List<AiMessageModel> previousMessages) async {
     try {
       Dio dio = Dio();
-      const apiKey = "AIzaSyDnrk_x0ZM11mTqAVwiMa8tx7gPr0NEMNc"; // Store securely
+      const apiKey = "Your API"; // Store securely
 
       final response = await dio.post(
         "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=$apiKey",
