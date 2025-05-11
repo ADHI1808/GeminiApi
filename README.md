@@ -53,3 +53,4 @@ This describes the process flow of AI message handling in theapplication.
 - `AiRepo` handles API interactions and processes the AI response.
 - The UI listens for state changes and updates accordingly.
 
+https://github.com/user-attachments/assets/6c747921-6cd0-45b2-9098-9ada35a03d12
